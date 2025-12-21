@@ -1,0 +1,246 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2a01873c-957a-4ca2-97b2-51cbc5d7526f")
+	(paper "A4")
+	(title_block
+		(title "STM32F405 ESC")
+		(rev "0.0.1")
+		(company "mangoByte")
+	)
+	(lib_symbols)
+	(text "STM32F405 ESC"
+		(exclude_from_sim no)
+		(at 191.008 173.228 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "938e4973-dd80-46db-af81-88a4c141f9fb")
+	)
+	(sheet
+		(at 200.66 55.88)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "007f84fe-4e1d-48db-b594-48a4bbf7e8a4")
+		(property "Sheetname" "Phase A"
+			(at 200.66 54.8034 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3_phase_A.kicad_sch"
+			(at 200.66 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32-ESC"
+				(path "/2a01873c-957a-4ca2-97b2-51cbc5d7526f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 115.57)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c296745-01fc-430f-aa47-a1a466732310")
+		(property "Sheetname" "Phase C"
+			(at 200.66 114.4934 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5_phase_C.kicad_sch"
+			(at 200.66 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32-ESC"
+				(path "/2a01873c-957a-4ca2-97b2-51cbc5d7526f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 76.2)
+		(size 33.02 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "33622d9f-69f1-4212-b1eb-3572dac5d911")
+		(property "Sheetname" "Power"
+			(at 46.99 75.1234 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1_power.kicad_sch"
+			(at 46.99 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32-ESC"
+				(path "/2a01873c-957a-4ca2-97b2-51cbc5d7526f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 55.88)
+		(size 72.39 78.74)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4118c17c-287f-4b04-aa5f-104ce24cc406")
+		(property "Sheetname" "Microcontroller"
+			(at 105.41 54.8034 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "2_microcontroller.kicad_sch"
+			(at 105.41 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32-ESC"
+				(path "/2a01873c-957a-4ca2-97b2-51cbc5d7526f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 86.36)
+		(size 34.29 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed2452ac-fad5-4810-9107-a90d518da50c")
+		(property "Sheetname" "Phase B"
+			(at 200.66 85.2834 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4_phase_B.kicad_sch"
+			(at 200.66 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32-ESC"
+				(path "/2a01873c-957a-4ca2-97b2-51cbc5d7526f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
