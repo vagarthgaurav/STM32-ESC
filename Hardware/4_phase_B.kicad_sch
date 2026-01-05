@@ -1779,6 +1779,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 22.86 30.48)
+		(end 274.32 154.94)
+		(stroke
+			(width 0.2)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9b679f72-d226-48d0-a164-59424fb5c88c)
+	)
 	(text "PA1206FRF470R002L 1W\n@Phase Current=15A, \nV(R_{s})=0.03V, P(R_{s})=0.45W"
 		(exclude_from_sim no)
 		(at 88.646 132.842 0)

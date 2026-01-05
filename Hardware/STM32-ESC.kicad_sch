@@ -23,7 +23,7 @@
 		(uuid "938e4973-dd80-46db-af81-88a4c141f9fb")
 	)
 	(sheet
-		(at 200.66 55.88)
+		(at 194.31 55.88)
 		(size 34.29 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39,7 +39,7 @@
 		)
 		(uuid "007f84fe-4e1d-48db-b594-48a4bbf7e8a4")
 		(property "Sheetname" "Phase A"
-			(at 200.66 54.8034 0)
+			(at 194.31 54.8034 0)
 			(effects
 				(font
 					(size 2 2)
@@ -48,7 +48,7 @@
 			)
 		)
 		(property "Sheetfile" "3_phase_A.kicad_sch"
-			(at 200.66 76.7846 0)
+			(at 194.31 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,50 @@
 		)
 	)
 	(sheet
-		(at 200.66 115.57)
+		(at 58.42 121.92)
+		(size 33.02 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "082b2d32-8ee3-4a47-a658-685f7a60779f")
+		(property "Sheetname" "Rotary encoder"
+			(at 58.42 120.8434 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rotary_encoder.kicad_sch"
+			(at 58.42 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32-ESC"
+				(path "/2a01873c-957a-4ca2-97b2-51cbc5d7526f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 119.38)
 		(size 34.29 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -82,7 +125,7 @@
 		)
 		(uuid "1c296745-01fc-430f-aa47-a1a466732310")
 		(property "Sheetname" "Phase C"
-			(at 200.66 114.4934 0)
+			(at 194.31 118.3034 0)
 			(effects
 				(font
 					(size 2 2)
@@ -91,7 +134,7 @@
 			)
 		)
 		(property "Sheetfile" "5_phase_C.kicad_sch"
-			(at 200.66 136.4746 0)
+			(at 194.31 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,8 +152,8 @@
 		)
 	)
 	(sheet
-		(at 46.99 76.2)
-		(size 33.02 30.48)
+		(at 58.42 57.15)
+		(size 33.02 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -125,7 +168,7 @@
 		)
 		(uuid "33622d9f-69f1-4212-b1eb-3572dac5d911")
 		(property "Sheetname" "Power"
-			(at 46.99 75.1234 0)
+			(at 58.42 56.0734 0)
 			(effects
 				(font
 					(size 2 2)
@@ -134,7 +177,7 @@
 			)
 		)
 		(property "Sheetfile" "1_power.kicad_sch"
-			(at 46.99 107.2646 0)
+			(at 58.42 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +196,7 @@
 	)
 	(sheet
 		(at 105.41 55.88)
-		(size 72.39 78.74)
+		(size 72.39 83.82)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -177,7 +220,7 @@
 			)
 		)
 		(property "Sheetfile" "2_microcontroller.kicad_sch"
-			(at 105.41 135.2046 0)
+			(at 105.41 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,7 +238,50 @@
 		)
 	)
 	(sheet
-		(at 200.66 86.36)
+		(at 58.42 87.63)
+		(size 33.02 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6aac17aa-d1d5-4ba9-9256-45c3f86e9855")
+		(property "Sheetname" "Can Bus"
+			(at 58.42 86.5534 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_bus.kicad_sch"
+			(at 58.42 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "STM32-ESC"
+				(path "/2a01873c-957a-4ca2-97b2-51cbc5d7526f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 86.36)
 		(size 34.29 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -211,7 +297,7 @@
 		)
 		(uuid "ed2452ac-fad5-4810-9107-a90d518da50c")
 		(property "Sheetname" "Phase B"
-			(at 200.66 85.2834 0)
+			(at 194.31 85.2834 0)
 			(effects
 				(font
 					(size 2 2)
@@ -220,7 +306,7 @@
 			)
 		)
 		(property "Sheetfile" "4_phase_B.kicad_sch"
-			(at 200.66 107.2646 0)
+			(at 194.31 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)

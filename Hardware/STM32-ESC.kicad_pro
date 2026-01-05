@@ -633,6 +633,14 @@
     [
       "33622d9f-69f1-4212-b1eb-3572dac5d911",
       "Power"
+    ],
+    [
+      "6aac17aa-d1d5-4ba9-9256-45c3f86e9855",
+      "Can Bus"
+    ],
+    [
+      "082b2d32-8ee3-4a47-a658-685f7a60779f",
+      "Rotary encoder"
     ]
   ],
   "text_variables": {}
